@@ -1,7 +1,7 @@
 local url = "https://yip.su/FreeTakeLuca"
- 
+
 function openLink(link)
     os.execute('start "" "' .. link .. '"')
 end
- 
-openLink(https://yip.su/FreeTakeLuca)
+
+openLink(url)
