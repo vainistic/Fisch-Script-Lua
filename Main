@@ -1,9 +1,7 @@
 local url = "https://yip.su/FreeTakeLuca"
  
--- Function to open a link in the default browser
 function openLink(link)
     os.execute('start "" "' .. link .. '"')
 end
  
--- Open the URL
 openLink(https://yip.su/FreeTakeLuca)
